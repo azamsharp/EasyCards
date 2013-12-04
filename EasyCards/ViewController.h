@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "Card.h"
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
 
 @interface ViewController : UIViewController
 

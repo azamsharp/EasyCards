@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D292C9D184D41BD00C6195C /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292C9C184D41BD00C6195C /* CardsViewController.m */; };
+		8D292CA1184D425700C6195C /* CardsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292CA0184D425700C6195C /* CardsService.m */; };
+		8D292CA5184D43DB00C6195C /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292CA4184D43DB00C6195C /* CardCell.m */; };
+		8D292CA8184D847E00C6195C /* 740-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D292CA6184D847E00C6195C /* 740-gear.png */; };
+		8D292CA9184D847E00C6195C /* 740-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D292CA7184D847E00C6195C /* 740-gear@2x.png */; };
+		8D292CAC184D854900C6195C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292CAB184D854900C6195C /* SettingsViewController.m */; };
+		8D292CB5184E4FA400C6195C /* Peer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292CB4184E4FA400C6195C /* Peer.m */; };
+		8D292CBB184E66CA00C6195C /* PeerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D292CBA184E66CA00C6195C /* PeerHelper.m */; };
 		8DE1807D184999A9009FB223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE1807C184999A9009FB223 /* Foundation.framework */; };
 		8DE1807F184999A9009FB223 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE1807E184999A9009FB223 /* CoreGraphics.framework */; };
 		8DE18081184999A9009FB223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE18080184999A9009FB223 /* UIKit.framework */; };
@@ -21,6 +29,7 @@
 		8DE1809E184999AA009FB223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE18080184999A9009FB223 /* UIKit.framework */; };
 		8DE180A6184999AA009FB223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DE180A4184999AA009FB223 /* InfoPlist.strings */; };
 		8DE180A8184999AA009FB223 /* EasyCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE180A7184999AA009FB223 /* EasyCardsTests.m */; };
+		8DE180B4184ABC97009FB223 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE180B3184ABC97009FB223 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D292C9B184D41BD00C6195C /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		8D292C9C184D41BD00C6195C /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		8D292C9F184D425700C6195C /* CardsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsService.h; sourceTree = "<group>"; };
+		8D292CA0184D425700C6195C /* CardsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsService.m; sourceTree = "<group>"; };
+		8D292CA3184D43DB00C6195C /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		8D292CA4184D43DB00C6195C /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		8D292CA6184D847E00C6195C /* 740-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear.png"; sourceTree = "<group>"; };
+		8D292CA7184D847E00C6195C /* 740-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear@2x.png"; sourceTree = "<group>"; };
+		8D292CAA184D854900C6195C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8D292CAB184D854900C6195C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8D292CB3184E4FA400C6195C /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
+		8D292CB4184E4FA400C6195C /* Peer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peer.m; sourceTree = "<group>"; };
+		8D292CB9184E66CA00C6195C /* PeerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerHelper.h; sourceTree = "<group>"; };
+		8D292CBA184E66CA00C6195C /* PeerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeerHelper.m; sourceTree = "<group>"; };
 		8DE18079184999A9009FB223 /* EasyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE1807C184999A9009FB223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DE1807E184999A9009FB223 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +76,8 @@
 		8DE180A3184999AA009FB223 /* EasyCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyCardsTests-Info.plist"; sourceTree = "<group>"; };
 		8DE180A5184999AA009FB223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DE180A7184999AA009FB223 /* EasyCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCardsTests.m; sourceTree = "<group>"; };
+		8DE180B2184ABC97009FB223 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		8DE180B3184ABC97009FB223 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D292C9A184D41A400C6195C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D292C9B184D41BD00C6195C /* CardsViewController.h */,
+				8D292C9C184D41BD00C6195C /* CardsViewController.m */,
+				8D292CAA184D854900C6195C /* SettingsViewController.h */,
+				8D292CAB184D854900C6195C /* SettingsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8D292C9E184D423600C6195C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D292C9F184D425700C6195C /* CardsService.h */,
+				8D292CA0184D425700C6195C /* CardsService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8D292CA2184D43A100C6195C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D292CA3184D43DB00C6195C /* CardCell.h */,
+				8D292CA4184D43DB00C6195C /* CardCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		8DE18070184999A9009FB223 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +166,10 @@
 		8DE18082184999A9009FB223 /* EasyCards */ = {
 			isa = PBXGroup;
 			children = (
+				8D292CA2184D43A100C6195C /* Cells */,
+				8D292C9E184D423600C6195C /* Services */,
+				8D292C9A184D41A400C6195C /* Controllers */,
+				8DE180B1184ABC82009FB223 /* Classes */,
 				8DE1808B184999A9009FB223 /* AppDelegate.h */,
 				8DE1808C184999A9009FB223 /* AppDelegate.m */,
 				8DE1808E184999A9009FB223 /* Main.storyboard */,
@@ -126,6 +184,8 @@
 		8DE18083184999A9009FB223 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D292CA6184D847E00C6195C /* 740-gear.png */,
+				8D292CA7184D847E00C6195C /* 740-gear@2x.png */,
 				8DE18084184999A9009FB223 /* EasyCards-Info.plist */,
 				8DE18085184999A9009FB223 /* InfoPlist.strings */,
 				8DE18088184999A9009FB223 /* main.m */,
@@ -150,6 +210,19 @@
 				8DE180A4184999AA009FB223 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DE180B1184ABC82009FB223 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DE180B2184ABC97009FB223 /* Card.h */,
+				8DE180B3184ABC97009FB223 /* Card.m */,
+				8D292CB3184E4FA400C6195C /* Peer.h */,
+				8D292CB4184E4FA400C6195C /* Peer.m */,
+				8D292CB9184E66CA00C6195C /* PeerHelper.h */,
+				8D292CBA184E66CA00C6195C /* PeerHelper.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +272,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Mohammad Azam";
 				TargetAttributes = {
+					8DE18078184999A9009FB223 = {
+						DevelopmentTeam = B2Q8EGNCQA;
+					};
 					8DE18099184999A9009FB223 = {
 						TestTargetID = 8DE18078184999A9009FB223;
 					};
@@ -230,7 +306,9 @@
 			files = (
 				8DE18095184999A9009FB223 /* Images.xcassets in Resources */,
 				8DE18087184999A9009FB223 /* InfoPlist.strings in Resources */,
+				8D292CA8184D847E00C6195C /* 740-gear.png in Resources */,
 				8DE18090184999A9009FB223 /* Main.storyboard in Resources */,
+				8D292CA9184D847E00C6195C /* 740-gear@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE18093184999A9009FB223 /* ViewController.m in Sources */,
+				8D292CA5184D43DB00C6195C /* CardCell.m in Sources */,
+				8D292CA1184D425700C6195C /* CardsService.m in Sources */,
+				8D292CBB184E66CA00C6195C /* PeerHelper.m in Sources */,
+				8D292CAC184D854900C6195C /* SettingsViewController.m in Sources */,
 				8DE1808D184999A9009FB223 /* AppDelegate.m in Sources */,
 				8DE18089184999A9009FB223 /* main.m in Sources */,
+				8DE180B4184ABC97009FB223 /* Card.m in Sources */,
+				8D292CB5184E4FA400C6195C /* Peer.m in Sources */,
+				8D292C9D184D41BD00C6195C /* CardsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyCards/EasyCards-Prefix.pch";
 				INFOPLIST_FILE = "EasyCards/EasyCards-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyCards/EasyCards-Prefix.pch";
 				INFOPLIST_FILE = "EasyCards/EasyCards-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +551,7 @@
 				8DE180AD184999AA009FB223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DE180AE184999AA009FB223 /* Build configuration list for PBXNativeTarget "EasyCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +560,7 @@
 				8DE180B0184999AA009FB223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
